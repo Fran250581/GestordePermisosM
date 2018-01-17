@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:shrinkColumns="0"
+        android:stretchColumns="0">
+
+        <TableRow>
+            <TextView
+                style="@style/TextoTabla.Titulo"
+                android:text="@string/eti_localizacion"/>
+
+            <TextView
+                android:id="@+id/location_value"
+                style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/TextoTabla.Titulo"
+                android:text="@string/eti_camara"/>
+
+            <TextView
+                android:id="@+id/camera_value"
+                style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/TextoTabla.Titulo"
+                android:text="@string/eti_internet"/>
+
+            <TextView
+                android:id="@+id/internet_value"
+                style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/TextoTabla.Titulo"
+                android:text="@string/eti_contactos"/>
+
+            <TextView
+                android:id="@+id/contacts_value"
+                style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/TextoTabla.Titulo"
+                android:text="@string/eti_almacenamiento"/>
+
+            <TextView
+                android:id="@+id/storage_value"
+                style="@style/TextoTabla.Valor"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
+

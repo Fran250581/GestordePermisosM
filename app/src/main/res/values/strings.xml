@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gestor de Permisos M+</string>
+    <string name="eti_localizacion">ACCESS_FINE_LOCATION</string>
+    <string name="eti_camara">CAMERA</string>
+    <string name="eti_internet">INTERNET</string>
+    <string name="eti_contactos">READ_CONTACTS</string>
+    <string name="eti_almacenamiento">WRITE_EXTERNAL_STORAGE</string>
+
+    <string name="toast_error">Permiso denegado</string>
+    <string name="toast_camara">Hay permisos para usar la camara</string>
+    <string name="toast_contactos">Hay permisos para leer contactos</string>
+    <string name="toast_localizacion">Hay permisos para usar la localizacion</string>
+
+    <string name="menu_camara">Camara</string>
+    <string name="menu_contactos">Contactos</string>
+    <string name="menu_localizacion">Localizacion</string>
+
+</resources>
